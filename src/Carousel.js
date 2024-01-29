@@ -10,7 +10,7 @@ class Carousel extends React.Component {
         for (let i = 0; i < this.state.images.length; i++) {
             items.push(<li><img src={this.state.images[i].thumb}/></li>);
         }
-        return <div id="carousel">carousel
+        return <div id="carousel">
             <ul>
                 {items}
             </ul>
