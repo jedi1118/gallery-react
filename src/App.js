@@ -1,6 +1,6 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import images from './Images.js';
+import { IMAGES } from './Images.js';// image urls, replace with ajax response
 import Gallery from './Gallery.js';
 import { React, useState } from 'react';
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Gallery iamges={images}/>
+        <Gallery images={IMAGES}/>
       </header>
     </div>
   );

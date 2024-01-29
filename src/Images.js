@@ -1,6 +1,6 @@
 // loyalty free photos from https://www.pexels.com/
 // instead of download and keep images in the code, I'm just saving the urls
-const IMAGES = [
+export const IMAGES = [
     { 
         img: "https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?cs=srgb&dl=pexels-pixabay-36717.jpg&fm=jpg&w=1920&h=1195&_gl=1*9z9evu*_ga*MTAxNzAyODMwMi4xNzA2Mjk0Njky*_ga_8JE65Q40S6*MTcwNjI5NDY5Mi4xLjEuMTcwNjI5NTEwMy4wLjAuMA..",
         thumb: "https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?cs=srgb&dl=pexels-pixabay-36717.jpg&fm=jpg&h=119&w=192&fit=crop&_gl=1*1euqn7a*_ga*MTAxNzAyODMwMi4xNzA2Mjk0Njky*_ga_8JE65Q40S6*MTcwNjI5NDY5Mi4xLjEuMTcwNjI5NjAzOC4wLjAuMA.."
