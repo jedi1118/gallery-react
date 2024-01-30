@@ -11,6 +11,8 @@ class Carousel extends React.Component {
             items.push(<li><img src={this.state.images[i].thumb}/></li>);
         }
         return <div id="carousel">
+            <div className="arrow left"></div>
+            <div className="arrow right"></div>
             <ul>
                 {items}
             </ul>
