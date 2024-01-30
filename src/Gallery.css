@@ -57,3 +57,6 @@
     -webkit-transform: translate(-50%, -50%) rotate(135deg);
     left: 25px
 }
+#imagepanel img {
+    width: 800px
+}

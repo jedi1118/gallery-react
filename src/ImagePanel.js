@@ -4,11 +4,12 @@ class ImagePanel extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            selected: props.selected || 0
+            selected: props.selected
         };
+        console.log('ImagePanel=', this.state.selected);
     }
     render() {
-        return <h1>ImagePanel</h1>
+        return <div id="imagepanel"><img src={this.state.selected.img}/></div>
     };
 }
 export default ImagePanel;
