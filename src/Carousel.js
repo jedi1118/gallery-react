@@ -1,4 +1,5 @@
 import React from 'react';
+import Thumbnail from './Thumbnail.js';
 
 class Carousel extends React.Component {
     constructor(props) {
@@ -10,7 +11,8 @@ class Carousel extends React.Component {
     render() {
         const items = [];
         for (let i = 0; i < this.state.images.length; i++) {
-            items.push(<li key={i}><img src={this.state.images[i].thumb}/></li>);
+            items.push(<li key={i}>
+                <Thumbnail image={this.state.images[i]} onclick={()=> { this.props.onclick(i)}}/></li>);
         }
         return <div id="carousel">
             <div className="arrow left"></div>
