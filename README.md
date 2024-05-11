@@ -1,6 +1,8 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## demo page
+[https://jedi1118.github.io/gallery-react](https://jedi1118.github.io/gallery-react)
 
 ## Available Scripts
 
