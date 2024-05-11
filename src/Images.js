@@ -1,5 +1,7 @@
 // loyalty free photos from https://www.pexels.com/
 // instead of download and keep images in the code, I'm just saving the urls
+// the full size images are quite large, onclick a thumbnail, the large image will take a sec or 2 to load
+// TODO: use API to query image from the "pexels" site? lazy load large images?
 export const IMAGES = [
     { 
         img: "https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?cs=srgb&dl=pexels-pixabay-36717.jpg&fm=jpg&w=1920&h=1195&_gl=1*9z9evu*_ga*MTAxNzAyODMwMi4xNzA2Mjk0Njky*_ga_8JE65Q40S6*MTcwNjI5NDY5Mi4xLjEuMTcwNjI5NTEwMy4wLjAuMA..",
