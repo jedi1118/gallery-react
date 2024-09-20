@@ -16,7 +16,7 @@ export const IMAGES = [
         thumb: "https://images.pexels.com/photos/371589/pexels-photo-371589.jpeg?cs=srgb&dl=pexels-pixabay-371589.jpg&fm=jpg&h=88&w=128&fit=crop&_gl=1*67m20g*_ga*MTAxNzAyODMwMi4xNzA2Mjk0Njky*_ga_8JE65Q40S6*MTcwNjQ4NjEzMS4yLjEuMTcwNjQ4NjIwOS4wLjAuMA.."
     },
     {
-        img: "https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?cs=srgb&dl=pexels-pixabay-247599.jpg&fm=jpg&w=7301&h=4873&_gl=1*122kb59*_ga*MTg5ODk4Mzg1OS4xNzE1NDU0NTg2*_ga_8JE65Q40S6*MTcxNTQ1NDU4NS4xLjEuMTcxNTQ1NTE2Mi4wLjAuMA..",
+        img: "https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?cs=srgb&dl=pexels-pixabay-247599.jpg&fm=jpg&w=1920&_gl=1*122kb59*_ga*MTg5ODk4Mzg1OS4xNzE1NDU0NTg2*_ga_8JE65Q40S6*MTcxNTQ1NDU4NS4xLjEuMTcxNTQ1NTE2Mi4wLjAuMA..",
         thumb: "https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?cs=srgb&dl=pexels-pixabay-247599.jpg&fm=jpg&h=128&w=192&fit=crop&_gl=1*1lvppn5*_ga*MTg5ODk4Mzg1OS4xNzE1NDU0NTg2*_ga_8JE65Q40S6*MTcxNTQ1NDU4NS4xLjEuMTcxNTQ1NTE2Mi4wLjAuMA..",
     },
     {
