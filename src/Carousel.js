@@ -11,16 +11,16 @@ class Carousel extends React.Component {
     }
     // TODO: use image size/firstIndex to calculate "ul" how many px to the left
     toPrev = () => {
-        if (this.state.images.length - this.state.firstIndex < 7) {
-            return;
-        }
-        this.setState({ firstIndex: ++this.state.firstIndex});
-    }
-    toNext = () => {
-        if (this.state.firstIndex -1 < 0) {
+        if (this.state.firstIndex <= 0 ) {
             return;
         }
         this.setState({ firstIndex: --this.state.firstIndex});
+    }
+    toNext = () => {
+        if (this.state.firstIndex +7 > this.state.images.length) {
+            return;
+        }
+        this.setState({ firstIndex: ++this.state.firstIndex});
     }
     render() {
         const items = [];
