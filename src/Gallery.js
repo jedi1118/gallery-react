@@ -1,9 +1,9 @@
-import { useState } from 'react';
+import { useState, React } from 'react';
 import ImagePanel from './ImagePanel.js';
 import Carousel from './Carousel.js';
 import './Gallery.css';
 
-import React from 'react';
+// import React from 'react';
 
 class Gallery extends React.Component {
     constructor(props) {

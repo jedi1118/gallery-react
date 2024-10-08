@@ -2,7 +2,7 @@
 import './App.css';
 import { IMAGES } from './Images.js';// image urls, replace with ajax response
 import Gallery from './Gallery.js';
-import { React, useState } from 'react';
+// import { React, useState } from 'react';
 
 function App() {
   return (
