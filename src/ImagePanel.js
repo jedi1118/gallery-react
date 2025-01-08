@@ -1,11 +1,9 @@
 import React from 'react';
 
-class ImagePanel extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-    render() {
+function ImagePanel(props) {
+    // constructor(props) {
+    //     super(props);
+    // }
         return <div id="imagepanel"><img src={this.props.src}/></div>
-    };
 }
 export default ImagePanel;
