@@ -6,8 +6,6 @@ import Carousel from './Carousel.js';
 import './Gallery.css';
 
 function Gallery() {
-  const {IMAGES, index, setIndex} = useContext(GalleryContext);
-
   return (
     <section id="gallery">
       <ImagePanel/>
