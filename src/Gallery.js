@@ -1,30 +1,18 @@
-import { useState, React } from 'react';
+import { useState, React, useContext } from 'react';
+
+import GalleryContext from './GalleryContext.js';
 import ImagePanel from './ImagePanel.js';
 import Carousel from './Carousel.js';
 import './Gallery.css';
 
-// import React from 'react';
-
 function Gallery() {
-    // constructor(props) {
-    //     super(props);
-    //     this.state = {
-    //       images: props.images,
-    //       selected: 0
-    //     }
-    //     console.log('Gallery=', this.state);
-    // }
-    // onImageClick = (i) => {
-    //   console.log(`onImageClick=${i}, ${this}`);
-    //   this.setState({selected: i});
-    //   console.log(`onImageClick=${i}, state=${this.state.selected}`);
-    // };
+  const {IMAGES, index, setIndex} = useContext(GalleryContext);
 
-      return <section id="gallery">
-        <ImagePanel src={this.state.images[this.state.selected].img}/>
-        <Carousel images={this.state.images} 
-        // onclick={this.onImageClick} 
-        />
-      </section>
+  return (
+    <section id="gallery">
+      <ImagePanel/>
+      <Carousel/>
+    </section>
+  )
 }
 export default Gallery;

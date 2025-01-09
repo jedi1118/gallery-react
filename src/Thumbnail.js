@@ -1,12 +1,10 @@
-import React from 'react';
+import { useState, React, useContext } from 'react';
 
-class Thumbmail extends React.Component {
-    constructor(props) {
-        super(props)
-    }
+import GalleryContext from './GalleryContext.js';
 
-    render() {
-        return <img src={this.props.image.thumb} onClick={this.props.onclick} />;
-    }
+function Thumbmail(props) {
+    const {IMAGES, index, setIndex} = useContext(GalleryContext);
+
+    return <img src={IMAGES[props.index].thumb} onClick={()=>{setIndex(props.index)}} />;
   }
   export default Thumbmail;

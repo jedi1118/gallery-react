@@ -1,9 +1,8 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import GalleryContext from './GalleryContext';
 
 function ImagePanel(props) {
-    // constructor(props) {
-    //     super(props);
-    // }
-        return <div id="imagepanel"><img src={this.props.src}/></div>
+    const {IMAGES, index, setIndex} = useContext(GalleryContext);
+    return <div id="imagepanel"><img src={IMAGES[index].full}/></div>
 }
 export default ImagePanel;
